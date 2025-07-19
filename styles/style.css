@@ -1,0 +1,158 @@
+@charset "UTF-8";
+        body{
+            background-color: #027a3a7c;
+            margin: auto;
+        }
+        a.externo::before{
+            content: "\1F517";
+        }
+        @font-face {
+            font-family: "id";
+            src: url("idroid.otf");
+            font-style: normal;
+        }
+        *{  /*quando se quer colocar uma configuração global, ou seja valida para todo o codigo se usa o asterisco[*], como declarador de variavel.*/
+            margin: 0px;
+            padding: 0px;
+        }
+         header{
+            background-image: linear-gradient(to bottom, #01a14c, #0ec72494, #000000 );
+            padding-top: 50px;
+            min-height: 150px;
+        }
+        nav > a{
+            color: aliceblue;
+            text-decoration: none;
+            padding: 10px;
+            font-size: 17px;
+            transition-duration: 0.5s;
+        }
+        nav{
+            box-shadow: 0px 7px 3px rgba(0, 0, 0, 0.527);
+            padding: 10px;
+        }
+        nav > a:hover{
+            background-color: #72edab9c;
+            border-radius: 5px;
+        }
+         header > h1{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: aliceblue;
+            text-align: center;
+            font-weight: normal;
+            font-size: 55px;
+            padding: 5px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 0px black;
+         }
+         header > p{ 
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 19px;
+            font-weight: bold;
+            color: aliceblue;
+            text-align: center;
+            padding: 5px;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 0px black;
+
+         }
+         main{
+            background-color: #FFFFFF;
+            margin: auto;
+            padding: 15px;
+            box-shadow: 0px 0px 12px black;
+            margin: auto;
+            max-width: 1000px;
+            min-width: 300px;
+         }
+         img{
+            width: 100%;
+         }
+         .pequena1{
+            max-width: 350px;
+            display: block;
+            margin: auto;
+         }
+         .pequena2{
+            width: 75%;
+            display: block;
+            margin: auto;
+         }
+         main > h1{
+            font-family: "id", times, serif;
+            color: #09bd5d;
+            padding: 5px;
+         }
+         main > h2{
+            font-family: "id", serif, times;
+            color: #09bd5d;
+            background-image: linear-gradient(to right, #84f7ba91,#FFFFFF );
+            padding: 5px;
+         }
+         main > P{
+            font-size: 18px;
+            padding: 5px;
+            text-align: justify;
+            text-indent: 15px;
+         }
+         main a{
+            color: #037a3b;
+            font-weight: bolder;
+            text-decoration: none;
+            background-color: rgba(250, 235, 215, 0.753);
+            padding: 2px 5px;
+         }
+         main a:hover{
+            text-decoration: underline;
+         }
+         div.video{
+            background-color: #037a3b8f;
+            margin: 0px -12px 30px -12px;
+            padding: 30px;
+            padding-bottom: 54.8%;
+
+            position: relative;
+         }
+         div.video > iframe{
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 90%;
+         }
+         section{
+            background-color: rgba(127, 255, 212, 0.507);
+            border-radius: 8px;
+         }
+         section > ul{
+            list-style-position: inside;
+            columns: 2;
+            padding: 10px;
+            /*se voce quiser colocar algum sinal diferente antes dos elementos da lista se usa o list-style-type, exemplo é c vc quiser colocar o sinal de verificado abre o emojipidea, pega o codigo do sinal que no caso é 2714 sempre colocando o [\ barra para a esquerda]. Nesse caso ficaria assim=
+            list-style-type: \2714\00A0[codigo do espaço, mesma coisa que um tab]\00A0;*/
+         }
+         section > h3{
+            background-color: #036933;
+            color: white;
+            padding: 7px;
+            border-radius: 8px 8px 8px 8px;
+         }
+         section > p{
+            padding: 15px;
+         }
+         #especial{
+            color: #036933;
+            font-weight: bolder;
+            font-size: 17px;
+         }
+         
+         footer{
+            background-color: #036933;
+            color: white;
+            font-size: 18px;
+            text-align: center;
+            padding: 8px;
+         }
+         .unico{
+            font-size: 20px;
+         }
